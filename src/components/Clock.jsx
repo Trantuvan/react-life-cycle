@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FormattedDate from './FormattedDate';
 
 export default class Clock extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ export default class Clock extends Component {
     return (
       <div className="font-mono">
         <h1>Hello World!</h1>
-        <h2>It is {date.toLocaleTimeString()}</h2>
+        <FormattedDate date={date} />
       </div>
     );
   }
