@@ -1,7 +1,11 @@
-import React, { Component} from 'react';
-
+import React, { Component } from 'react';
+import Clock from './components/Clock';
 export default class App extends Component {
-  render(){
-    return <h1 className='text-3xl font-bold underline'>Hello World</h1>
+  render() {
+    return (
+      <div className="h-screen flex items-center justify-center">
+        <Clock />
+      </div>
+    );
   }
 }
