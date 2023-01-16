@@ -10,6 +10,6 @@ export default class Counter extends Component {
 
   render() {
     const { counter } = this.state;
-    return <div className="counter">Counter: {counter}</div>;
+    return <div className="text-3xl">Counter: {counter}</div>;
   }
 }
